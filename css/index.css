@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+
+.login-page{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.image-login{
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.login-input-text{
+    margin-left: 32rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+}
+.username-password-input{
+    border: 0 none;
+    background-color: rgb(241, 238, 238);
+    width: 22rem;
+    height: 2.4rem;
+    margin-bottom: 1rem;
+    border-radius: 0.4rem;
+}
+.username-password-input::-webkit-input-placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 12px 12px 14px;
+}
+.username-password-input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 12px 12px 14px;
+}
+.username-password-input:focus::-webkit-input-placeholder{
+    opacity: 0;
+    padding: 12px 12px 14px;
+}
+.button-login{
+    border: 0 none;
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 252, 189);
+}
+.button-login:hover{
+    background-color: rgb(5, 150, 113);
+}
+.person-logged{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 252, 189);
+}
+.text-login{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.create-account{
+    margin-top: 2rem;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+}
+a:hover{
+    color: rgb(0, 252, 189);
+}
